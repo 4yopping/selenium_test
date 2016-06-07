@@ -1,0 +1,3 @@
+[submodule "vagrant-selenium"]
+	path = vagrant-selenium
+	url = git@github.com:4yopping/vagrant-selenium.git
