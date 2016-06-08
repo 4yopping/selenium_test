@@ -7,6 +7,7 @@ var driver = new webdriver.Builder()
     .forBrowser('chrome')
     .setChromeOptions(/* ... */)
     .setFirefoxOptions(/* ... */)
+    .usingServer('http://localhost:4444/wd/hub')
     .build();
 
 driver.get('http://www.google.com/ncr');
